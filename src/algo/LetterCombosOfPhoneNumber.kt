@@ -14,7 +14,7 @@ class LetterCombosOfPhoneNumber {
     )
 
     fun letterCombinations(digits: String): List<String> {
-        if (digits.isEmpty()) {
+        if (digits.isBlank()) {
             return ArrayList()
         }
         val combos = ArrayList<String>()
